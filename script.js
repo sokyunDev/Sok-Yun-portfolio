@@ -46,7 +46,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ---------- Active Navigation ----------
+// Active Navigation
 
 const sections = document.querySelectorAll("section");
 const navLinks = document.querySelectorAll(".nav-link");
@@ -82,7 +82,7 @@ window.addEventListener("scroll", () => {
 
 });
 
-// ---------- Reveal Animation ----------
+// Reveal Animation
 
 const revealElements = document.querySelectorAll(
 
@@ -120,7 +120,7 @@ window.addEventListener("scroll", reveal);
 
 reveal();
 
-// ---------- Scroll To Top Button ----------
+// Scroll To Top Button
 
 const topBtn = document.createElement("button");
 
@@ -175,7 +175,7 @@ topBtn.addEventListener("click", () => {
 
 });
 
-// ---------- Typing Effect ----------
+// Typing Effect 
 
 const typingElement = document.querySelector(".hero h3");
 
@@ -237,7 +237,7 @@ function type() {
 
 type();
 
-// ---------- Contact Form ----------
+// Contact Form
 
 const form = document.querySelector("form");
 
@@ -251,7 +251,7 @@ form.addEventListener("submit", function (e) {
 
 });
 
-// ---------- Console Message ----------
+//Console Message
 
 console.log(
 
